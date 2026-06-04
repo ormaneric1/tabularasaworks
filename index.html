@@ -3,16 +3,93 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Tabula Rasa Works</title>
+  <meta name="description" content="Physical releases, design, production, and distribution for artists. Vinyl, cassette, CD, DVD, Bandcamp, and catalog work." />
+
+  <style>
+    :root {
+      --cream: #f3efe4;
+      --ink: #1a1a1a;
+      --olive: #4f5630;
+      --gold: #b49a63;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    main {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px 40px;
+    }
+
+    .placeholder {
+      width: min(100%, 1100px);
+      height: auto;
+      display: block;
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.14);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      background: var(--cream);
+    }
+
+    .contact {
+      margin-top: 28px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+
+    .contact a {
+      color: var(--olive);
+      text-decoration: none;
+      border-bottom: 1px solid var(--gold);
+      padding-bottom: 3px;
+    }
+
+    .contact a:hover {
+      color: var(--ink);
+    }
+
+    footer {
+      margin-top: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(26, 26, 26, 0.6);
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
   <main>
-    <h1>Tabula Rasa Works</h1>
-    <p>Physical releases, design, production, and distribution for artists.</p>
-    <p>Vinyl • Cassette • CD • DVD • Bandcamp • Catalog Work</p>
-    <p>Built in Brooklyn.</p>
-    <p>A blank slate. Something made real.</p>
-    <p>Contact: tabularasaworks@proton.me</p>
+    <img
+      class="placeholder"
+      src="trw-placeholder.png"
+      alt="Tabula Rasa Works overview: physical releases, design, production, and distribution for artists."
+    />
+
+    <div class="contact">
+      <a href="mailto:tabularasaworks@proton.me">tabularasaworks@proton.me</a>
+    </div>
+
+    <footer>
+      Built in Brooklyn · A blank slate. Something made real.
+    </footer>
   </main>
 </body>
 </html>
