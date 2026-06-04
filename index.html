@@ -51,7 +51,29 @@
       text-transform: uppercase;
       font-size: 13px;
     }
+.button {
+  display: inline-block;
+  padding: 14px 22px;
+  border: 1px solid var(--gold);
+  background: var(--olive);
+  color: var(--cream) !important;
+  text-decoration: none;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 12px;
+}
 
+.button:hover {
+  background: var(--ink);
+  color: var(--cream) !important;
+}
+
+.small-contact {
+  margin-top: 14px;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
     .contact a {
       color: var(--olive);
       text-decoration: none;
@@ -84,8 +106,17 @@
     />
 
     <div class="contact">
-      <a href="mailto:tabularasaworks@proton.me">tabularasaworks@proton.me</a>
-    </div>
+  <a
+    class="button"
+    href="mailto:tabularasaworks@proton.me?subject=Start%20a%20Release%20Inquiry&body=Artist%20%2F%20Project%20Name%3A%0D%0A%0D%0ARelease%20Title%3A%0D%0A%0D%0AWhat%20kind%20of%20project%20is%20this%3F%20%28Album%2C%20EP%2C%20Single%2C%20Live%20Session%2C%20Catalog%20%2F%20Archive%2C%20Other%29%3A%0D%0A%0D%0AFormats%20you%27re%20considering%20%28Vinyl%2C%20Cassette%2C%20CD%2C%20DVD%2C%20Bandcamp%2C%20Catalog%20Work%2C%20Not%20Sure%29%3A%0D%0A%0D%0AProduction%20path%20%28Made-to-order%2C%20Bulk%2C%20Hybrid%2C%20Not%20Sure%29%3A%0D%0A%0D%0AAre%20final%20audio%20masters%20ready%3F%3A%0D%0A%0D%0AIs%20artwork%20ready%3F%3A%0D%0A%0D%0AApproximate%20runtime%3A%0D%0A%0D%0ANumber%20of%20tracks%3A%0D%0A%0D%0ATarget%20timeline%3A%0D%0A%0D%0AEstimated%20quantity%20or%20release%20goal%3A%0D%0A%0D%0AWhat%20support%20do%20you%20need%3F%20%28Format%20planning%2C%20sequencing%2C%20packaging%2C%20mockups%2C%20Bandcamp%20setup%2C%20vendor%20coordination%2C%20release%20copy%2C%20catalog%20organization%29%3A%0D%0A%0D%0ATell%20us%20about%20the%20release%3A%0D%0A"
+  >
+    Start a Release
+  </a>
+
+  <p class="small-contact">
+    or email <a href="mailto:tabularasaworks@proton.me">tabularasaworks@proton.me</a>
+  </p>
+</div>
 
     <footer>
       Built in Brooklyn · A blank slate. Something made real.
